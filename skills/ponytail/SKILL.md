@@ -1,6 +1,7 @@
 ---
 name: ponytail
 description: Force the laziest solution that actually works — question the task, prefer the standard library, delete before adding.
+source: "Adapted from DietrichGebert/ponytail (MIT), https://github.com/DietrichGebert/ponytail"
 ---
 
 # Ponytail: the laziest solution that works

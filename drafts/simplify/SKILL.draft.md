@@ -1,6 +1,7 @@
 ---
 name: simplify
 description: Sweep recently changed code for reuse, dead weight, and needless abstraction - quality cleanup only, no behavior changes.
+source: "Adapted from Claude Code's built-in /simplify skill (Anthropic)"
 ---
 
 # Simplify

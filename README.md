@@ -37,6 +37,14 @@ its frontmatter; the collections referenced so far:
 
 - [mattpocock/skills](https://github.com/mattpocock/skills) — `grilling`,
   `tdd`, `code-review`, `drafts/handoff`, `drafts/merge-conflicts`.
+- [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (MIT) — `ponytail`.
+- Claude Code's own built-in `/simplify` skill (Anthropic) — `drafts/simplify`.
+
+Checked but not attributed for lack of a single confident match: `commit`,
+`debugging`, `plan`, `skill-authoring`, `spike`, `drafts/pr-workflow`,
+`drafts/humanizer`, `drafts/grounded-citations` — each shares a name/concept
+with several independently-written public skills, but none matched closely
+enough to credit one over the others.
 
 ## Adding a hub of your own
 
