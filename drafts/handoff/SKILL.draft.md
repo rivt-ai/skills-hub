@@ -1,6 +1,7 @@
 ---
 name: handoff
 description: Compact the current session into a handoff document another agent or a future session can resume from.
+source: "Adapted from mattpocock/skills (productivity/handoff), https://github.com/mattpocock/skills"
 ---
 
 # Handoff

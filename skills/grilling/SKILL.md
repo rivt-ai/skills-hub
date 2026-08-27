@@ -1,6 +1,7 @@
 ---
 name: grilling
 description: Interview the user relentlessly about a plan or decision until every open branch is resolved - one question at a time, with a recommendation.
+source: "Adapted from mattpocock/skills (productivity/grilling), https://github.com/mattpocock/skills"
 ---
 
 # Grilling

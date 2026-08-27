@@ -1,6 +1,7 @@
 ---
 name: tdd
 description: Build features and fix bugs test-first with a strict red-green-refactor loop.
+source: "Adapted from mattpocock/skills (engineering/tdd), https://github.com/mattpocock/skills"
 ---
 
 # Test-driven development

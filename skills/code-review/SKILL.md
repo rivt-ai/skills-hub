@@ -1,6 +1,7 @@
 ---
 name: code-review
 description: Review a diff or branch for correctness, clarity, and scope creep, reporting concrete findings ranked by severity.
+source: "Adapted from mattpocock/skills (engineering/code-review), https://github.com/mattpocock/skills"
 ---
 
 # Code review

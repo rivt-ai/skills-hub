@@ -29,6 +29,15 @@ skills/<name>/SKILL.md
 recognizes `SKILL.md`, so drafts are not installable until promoted: move the
 directory under `skills/` and rename the file to `SKILL.md`.
 
+## Sources
+
+Some skills are adapted from other public skill collections rather than
+written from scratch here. Each adapted skill carries a `source:` field in
+its frontmatter; the collections referenced so far:
+
+- [mattpocock/skills](https://github.com/mattpocock/skills) — `grilling`,
+  `tdd`, `code-review`, `drafts/handoff`, `drafts/merge-conflicts`.
+
 ## Adding a hub of your own
 
 Any git repository with this layout works. Point your agent's skills config at it:

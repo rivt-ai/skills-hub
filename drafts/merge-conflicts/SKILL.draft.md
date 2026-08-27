@@ -1,6 +1,7 @@
 ---
 name: merge-conflicts
 description: Resolve an in-progress git merge or rebase conflict hunk by hunk, preserving the intent of both sides.
+source: "Adapted from mattpocock/skills (engineering/resolving-merge-conflicts), https://github.com/mattpocock/skills"
 ---
 
 # Resolving merge conflicts
