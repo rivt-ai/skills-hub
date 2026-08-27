@@ -1,0 +1,38 @@
+# skill hub
+
+Default skill hub. Skills are `SKILL.md` instruction packs the agent loads on demand.
+
+## Install
+
+This hub is configured by default, so:
+
+```
+skills search            # browse what's here
+skills install commit    # install one skill
+skills install --all     # everything
+```
+
+In the TUI, `/skills install` opens a searchable picker.
+
+## Layout
+
+Each skill is a directory under `skills/` containing a `SKILL.md` with
+`name` and `description` frontmatter followed by the instructions:
+
+```
+skills/<name>/SKILL.md
+```
+
+## Drafts
+
+`drafts/` holds candidate skills as `SKILL.draft.md` files. The installer only
+recognizes `SKILL.md`, so drafts are not installable until promoted: move the
+directory under `skills/` and rename the file to `SKILL.md`.
+
+## Adding a hub of your own
+
+Any git repository with this layout works. Point your agent's skills config at it:
+
+```
+SKILLS_HUBS="rivt-ai/skills,you/your-skills" skills search
+```
